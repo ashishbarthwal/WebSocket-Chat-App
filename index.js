@@ -151,4 +151,8 @@ function getUsersInRoom(room) {
 
 function getAllActiveRooms() {
     return Array.from(new Set(UsersState.users.map(user => user.room)))
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 6e37f040b5e679737fb2fb593e8c12d88c172869
